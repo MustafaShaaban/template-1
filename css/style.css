@@ -1,0 +1,227 @@
+
+/* Start main rules */
+.container
+{
+    width: 1170px;
+    margin: auto;
+}
+
+/* End main rules */
+
+
+/* Start Slider */
+
+.header .slider
+{
+    background-image: url(../image/slider-bg1.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 600px;
+    background-attachment: scroll;
+    overflow: hidden
+}
+
+.header .slider .intro h2
+{
+    color: #FFF;
+    font-size: 50px;
+    border-top: 5px solid #FFF;
+    border-bottom: 5px solid #FFF;
+    width: 600px;
+    padding: 10px;
+    margin: 15% auto 5% auto
+    
+    
+}
+.header .slider .intro button
+{
+    display: block;
+    margin: 40px auto;
+    background: transparent;
+    border: 3px solid #FFF;
+    padding: 15px 30px;
+    color: #FFF
+}
+/* End Slider */
+
+
+/* Start navigation bar */
+
+.nav {background: #364A4E; color: #FFF; overflow:hidden }
+
+.nav span {color:#2ecc71}
+
+.nav h2 {text-transform: capitalize; display: inline-block; color: #FFF}
+
+.nav ul {float:right; list-style-type:none; padding-left: 0px }
+
+.nav ul li {display: inline-block; margin: 10px }
+
+.nav a:hover { color: #2ecc71}
+.nav li a {text-decoration: none; color : #FFF }
+
+/* End navigation bar */
+
+
+/* start Goals */
+
+.goals { overflow: hidden; margin: 30px }
+
+.goals .goal { width: 33.33333% }
+
+/* End Goals */
+
+/* Start about me */
+
+.about-me { background: #f2f2f1; overflow: hidden; width:100% }
+
+
+.about-me .image { width:40% }
+
+.about-me .image img { width: 100% }
+
+.about-me .Information { width: 60% }
+
+
+.about-me .Information h2 { margin: 30px 0px 20px 50px}
+.about-me .Information > p { margin: 5px 0px 25px 50px}
+.about-me .Information > p:last-of-type { margin: 5px 0px 20px 50px}
+
+.about-me .hobbies { margin: 40px 0px 25px 50px }
+
+
+.about-me .hobbies .content { width: 50%; }
+
+.about-me .hobbies .content .icon { margin-top: 20px; margin-right: 30px }
+.about-me .hobbies .content .icon i { width:12%; color: #2ECC71 }
+
+.about-me .hobbies .content .text { width: 80%; margin-left: 47px; }
+
+/* End about me */
+
+
+/* Start Skills */
+
+.skills { overflow: hidden; width: 100%}
+
+.skills .Child { width: 45%; margin-left: 5%; margin-top: 3%  }
+
+.skills .Child h2 { margin: 20px 0 35px 0}
+.skills .Child p:last-of-type { margin:30px 0 30px 0}
+
+
+
+.skills .exp { width: 45%; float: right; margin-left: 3% }
+.skills .exp .progress { margin-top: 10%}
+
+.skills .exp .progress div { width: 100%; height: 30px; background-color: #f2f2f1 }
+
+.skills .exp .progress span
+{
+    display: block;
+    background-color: #2ECC71;
+    color: #FFF;
+    text-align: right;
+    padding: 5px
+}
+/* End Skills */
+
+
+/* Start Of Resume */
+
+.resume {background-color: #f2f2f1; padding: 10px; margin: 4% auto}
+.resume h2 { text-align: center; padding-bottom: 15px}
+.resume p { text-align: center; margin: 0 auto; width:1200px; font-weight: bold; color:#AEAEB4}
+.resume input {margin: 20px auto}
+
+/* End Of Resume */
+
+
+/* Start Of Education Section */
+
+.CV {width: 100%}
+
+.CV .Education { width: 45%; margin-left: 5% }
+
+.CV .Education h2 { margin-bottom: 40px; text-transform: uppercase}
+.CV .Education p { margin-bottom: 25px }
+
+.CV .certificate { width: 45%; margin-left: 5%; float: right }
+
+.CV .certificate h3 { margin-top: 17% }
+.CV .certificate div {margin-bottom: 10px}
+.CV .certificate span { color: #FFF; background-color:#2ecc71; padding: 5px; font-size: 13px }
+
+/* End Of Education Section */
+
+/* Start Of Testemonials section */
+
+.Testemonials {background-color: #f2f2f1; padding: 50px; margin: 10px auto }
+.Testemonials q { text-align: center; display: block;width: 1100px; margin: 0 auto; font-weight: bold; font-style: italic; color:#949499; line-height: 1.7}
+.Testemonials h3 { text-align: center; margin-bottom: 0 }
+.Testemonials ul { list-style: none; text-align: center; padding-left: 0 }
+.Testemonials ul li { display: inline-block; width: 10px; height: 10px; background-color: transparent; border: 2px solid #2ecc71; cursor: pointer }
+.Testemonials ul li:hover{ background-color: #2ecc71 }
+
+/* End Of Testemonials section */
+
+/* Start of portfolio section */
+
+.portfolio h2 { text-align: center ; margin: 40px auto}
+.portfolio p  { margin-bottom:50px; text-align: center}
+.portfolio .works {width: 100%}
+.portfolio .works img {width: 32.3333333%; float: left; margin: 5px }
+
+/* End Of portfolio Section */
+
+
+/* Start of Contact me */
+
+.contact-me { background-color: #252e30; margin-top: 60px; overflow: hidden}
+.contact-me .text { width: 50% }
+.contact-me .text h2 { color: #FFF; padding-top: 10%; padding-bottom: 1%}
+.contact-me .text strong {color: #FFF}
+.contact-me .text div p {display: inline; color: #919191}
+.contact-me .form { width: 45%; margin-left: 5%; margin-top: 10%}
+
+.contact-me .form label { color: #919191;}
+.contact-me .form input { display: block; background-color: #4b5456; border: none; width:90%; height: 40px; margin-top: 10px; color: #FFF}
+.contact-me .form textarea { background-color: #4b5456; border: none; width:90%; height: 250px; margin-top: 10px; color: #FFF}
+.contact-me .form .my-buttom { margin: 20px 0 90px 0; width: 145px}
+/* End Of Contact Me */
+
+
+/* Start Footer */
+
+.footer {background-color: #191f21; overflow: hidden}
+.footer p { text-align: center}
+.footer ul { list-style-type: none; padding-left: 0; text-align: center;}
+.footer ul li {  display: inline-block}
+.footer i { color: #4b5456}
+/* End Footer */
+
+
+
+
+/* Start my framework */
+
+.fl-left {float:left}
+
+p {color: #aeaeae; line-height: 1.7}
+
+h1, h2 ,h3 {color: #647072}
+
+.my-buttom
+{
+    display: block;
+    margin: 20px;
+    background: transparent;
+    border: 3px solid #2ecc71;
+    padding: 10px 30px;
+    color: #2ecc71;
+    font-weight: bold
+}
+.clearfix {clear: both}
+/* End My framework */
